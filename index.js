@@ -59,7 +59,7 @@
           const html = data.map(
             (item) => `
           <div class="d-flex justify-content-between align-items-center pb-3 mb-3 small lh-sm border-bottom w-100">
-          <div class="d-flex flex-column justify-content-start">
+          <div class="d-flex col-8 flex-column justify-content-start">
             <div class="d-flex align-items-center">
               <a target="_blank" class="link-success" href="${item.url}">${
               item.url
@@ -71,7 +71,7 @@
             </div>
             <div class="fw-light mt-2">${item.tips || ""}</div>
           </div>
-          <div class="d-grid gap-2">
+          <div class="d-grid col-4 gap-2">
             <button class="btn btn-primary" type="button">
               <a target="_blank" class="link-light text-decoration-none" href="${
                 item.url
